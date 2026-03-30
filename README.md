@@ -16,14 +16,6 @@
 Mở công cụ quản lý SQL và chạy script sau để khởi tạo Database và dữ liệu mẫu:
 
 ```sql
-Chào Hải! Để hoàn thiện một hệ thống LMS (Learning Management System) nhỏ, chúng ta cần đầy đủ 4 bảng: roles, users, modules, và lessons với các mối quan hệ (khóa ngoại) chặt chẽ.
-
-Dưới đây là đoạn mã SQL chuẩn cho MySQL để bạn cập nhật vào mục 1. Tạo cấu trúc bảng trong file README.md:
-
-1. Tạo cấu trúc bảng (Dành cho MySQL - Full 4 Tables)
-Mở công cụ quản lý MySQL và chạy script sau:
-
-SQL
 -- 1. Tạo Database hỗ trợ tiếng Việt (utf8mb4)
 CREATE DATABASE IF NOT EXISTS blogweb
 CHARACTER SET utf8mb4
